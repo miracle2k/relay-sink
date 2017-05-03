@@ -1,5 +1,5 @@
 import { Component, PropTypes } from 'react';
-import Relay from 'react-relay';
+import Relay from 'react-relay/compat';
 import pick from 'lodash/object/pick';
 import shallowEqual from './shallowEqual';
 
